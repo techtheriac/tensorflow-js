@@ -13,3 +13,13 @@ data2.print();
 //Mutating data2 with data of  one dimension
 data2.assign(tf.tensor1d([1, 0, 4, 6, 89, 9, 0, 9]));
 data2.print();
+
+const data3 = tf.tensor1d([1, 3, 5, 6]);
+const data4 = tf.tensor1d([22, 43, 5, 5]);
+
+data3.print();
+data4.print();
+
+//Adds, Multiplies and prints
+data3.add(data4).print();
+data3.mul(data4).print();
